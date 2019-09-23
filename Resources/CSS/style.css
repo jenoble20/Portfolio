@@ -32,6 +32,11 @@ hr{
 a{
     text-decoration: none;
     color: #FFF;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
 }
 
 
@@ -85,6 +90,13 @@ a{
     margin: auto;
 }
 
+hr{
+    height: 5px;
+    width: 24rem;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
 
 /**PROJECT SECTION**/
 
@@ -100,10 +112,10 @@ a{
 
 .project-title{
     width: 80%;
-    height: auto;
-    background-color: grey;
-    border-radius: 25px;
-    box-shadow: 0px 3px 8px #2C2C2C;
+}
+
+.project-title img{
+    border: 2px solid black;
 }
 
 
