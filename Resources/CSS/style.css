@@ -85,6 +85,10 @@ hr{
 .project-title{
     width: 80%;
     color: #9C3B03;
+    border: 1px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px #333;
+    padding: 1rem;
 }
 
 .project-title h3{
@@ -95,12 +99,13 @@ hr{
 .project-title img{
     max-width: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 5px #333;
+    
     transition: all 0.5s;
 }
 
 .project-title img:hover{
     transform: scale(1.05);
+    box-shadow: 0 5px 5px #333;
 }
 
 .project-title p{
